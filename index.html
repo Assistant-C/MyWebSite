@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EngSchool</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://s3-alpha-sig.figma.com/img/75cb/433f/499212da41d5f02d3af8ca5c1613efa5?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h0O4EKVCeG4ByI1I8YdmjMntdWMTwdjIG~zu-jEEuRAv5yrWX2G7YTrEcy13YNZaSTQ6bzlNdw-DfaXlp~SLC3iUcDxtJTxmGsMwhsFwbq5-GTIJtD7oi3zPMGEAHFT1dzfBKm-y0gnCSqP7~1xYzEOrxIMZa3E4LSibo42I7ji6MHwyHjvACvIAiAlcCyy85CY~nrwy1hmEMpGif-rcHf4UjVcBk1Qbgpj2TK4W7frNFvY9vSJO~cSe5kRSc~ofOpxOj7dY~l2SDPJhrs8VvoR9a5qUP30FXC1FddJW-LZwdv6D8pxnUSpwITv-eLPnCQa~454T75myPkuz2yDDpw__">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box" id="box">
+        <div class="big_header">
+            <nav>
+                <div class="logo" onclick="fun1()" id="logo"></div>
+                <div class="navigation">
+                    <p class="n_p" >
+                        <a class="n_p" href="#history">History</a>
+                    </p>
+                    <p class="n_p">
+                        <a class="n_p" href="#reasons">Reasons</a>
+                    </p>
+                    <p class="n_p">
+                        <a class="n_p" href="#levels">Levels</a>
+                    </p>
+                    <p class="n_p">
+                        <a class="n_p"  href="#using">Using</a>
+                    </p>
+                    <p class="n_p">
+                        <a class="n_p" href="#importance">Importance</a>
+                    </p>
+                    <p class="n_p">
+                        <a class="n_p" href="#testing">Testing</a>
+                    </p>
+                    <p class="n_p">
+                        <a class="n_p" href="#tools">
+                            Tools
+                        </a>
+                    </p>
+                </div>
+                <div class="log_reg">
+                    <button class="login">Login</button>
+                    <button class="reg">Sign Up</button>
+                </div>
+            </nav>
+            <header>
+                <div class="h_i1">
+                    <h1 class="h_h1"><span class="h_h2">Studying</span> English is key <br>quality for a developer</h1>
+                    <p class="h_p1">This web page outlines the main aspects of the <br>English language and its importance in the life <br>of developers</p>
+                    <div class="h_buttons">
+                        <button class="h_btn1">Get Started</button>
+                        <button class="h_btn_play">
+                            <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z" fill="#23BDEE"/>
+                            </svg>
+                        </button>
+                        <p class="h_p2">Watch Lessons!</p>
+                    </div>
+                </div>
+                <div class="h_i2">
+                    <div class="h_big_img"></div>
+                    <div class="h_b1">
+                        <div class="h_b_img1"></div>
+                        <div class="h_b_ps">
+                            <p class="h_b_p1">Plan your study</p>
+                            <p class="h_b_p2">Assisted Student</p>
+                        </div>
+                    </div>
+                    <div class="h_b2">
+                        <div class="h_b_img2"></div>                          
+                        <div class="h_b_ps">
+                            <p class="h_b_p1">Communicate</p>
+                            <p class="h_b_p2">Today at 12.00 PM</p>
+                        </div>
+                    </div>
+                    <div class="h_b3">
+                        <div class="h_b_img3"></div>
+                        <div class="h_b_ps">
+                            <p class="h_b_p1">Message</p>
+                            <p class="h_b_p2">Your admission completed</p>
+                        </div>
+                    </div>
+                    <div class="h_b_img4"></div>
+                </div>
+            </header>
+        </div>
+        <div class="history" id="history">
+            <div class="hi_i1">
+                <h1 class="hi_h1" id="h1">History origin and development of the English language </h1>
+                <p class="hi_p1" id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labori</p>
+                <p class="hi_p2" id="h2">Learn more</p>
+            </div>
+            <div class="hi_i2">
+                <button class="h_btn_play">
+                    <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z" fill="#23BDEE"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="ellipse1"></div>
+            <div class="ellipse2"></div>
+            <div class="ellipse3"></div>
+            <div class="ellipse4"></div>
+        </div>
+        <main id="main">
+            <h1 id="reasons" class="m_hh1" id="lox">Reasons to <span class="m_h1_span">Learn English</span> </h1>
+            <div class="m_blocks">
+                <div class="block">
+                    <div class="i"></div>
+                    <div class="minball"><h3>First</h3></div>
+                    <h2 class="m_hh2"> Global communication</h2>
+                    <p class="m_pp1">English is the most widely spoken language worldwide, functioning as a common means of communication. <br>It makes it easier to travel in many countries. </p>
+                    <p class="m_pp2">Learn more</p>
+                </div>
+                <div class="block">
+                    <div class="i1"></div>
+                    <div class="minball"><h3>Second</h3></div>
+                    <h2 class="m_hh2">Career opportunities</h2>
+                    <p class="m_pp1">English proficiency can open up a wider range of employment opportunities, both locally and internationally. <br>Many multinational companies use English as their working language, making it important for career advancement.</p>
+                    <p class="m_pp2">Learn more</p>
+                </div>
+                <div class="block">
+                    <div class="i2"></div>
+                    <div class="minball"><h3>Third</h3></div>
+                    <h2 class="m_hh2">Higher education</h2>
+                    <p class="m_pp1">Many of the world's leading universities and research institutions use English as a medium of instruction. <br>A huge number of scientific studies, textbooks and journals are available mainly in English. </p>
+                    <p class="m_pp2">Learn more</p>
+                </div>
+            </div>
+            <div class="m_blocks" style="display: none;" id="mB">
+                <div class="block">
+                    <div class="i"></div>
+                    <div class="minball"><h3>Fourth</h3></div>
+                    <h2 class="m_hh2"> Global communication</h2>
+                    <p class="m_pp1">English is the most widely spoken language worldwide, functioning as a common means of communication. <br>It makes it easier to travel in many countries. </p>
+                    <p class="m_pp2">Learn more</p>
+                </div>
+                <div class="block">
+                    <div class="i1"></div>
+                    <div class="minball"><h3>Fifth</h3></div>
+                    <h2 class="m_hh2">Career opportunities</h2>
+                    <p class="m_pp1">English proficiency can open up a wider range of employment opportunities, both locally and internationally. <br>Many multinational companies use English as their working language, making it important for career advancement.</p>
+                    <p class="m_pp2">Learn more</p>
+                </div>
+                <div class="block">
+                    <div class="i2"></div>
+                    <div class="minball"><h3>Sixth</h3></div>
+                    <h2 class="m_hh2">Higher education</h2>
+                    <p class="m_pp1">Many of the world's leading universities and research institutions use English as a medium of instruction. <br>A huge number of scientific studies, textbooks and journals are available mainly in English. </p>
+                    <p class="m_pp2">Learn more</p>
+                </div>
+            </div>
+            <button onclick="show()" class="ball" id="mBtn1">SHOW ALL</button>
+            <button onclick="hide()" style="display: none;" class="ball" id="mBtn2">HIDE</button>
+        </main>
+        <section id="levels">
+            <h1 class="s_hh1">6 Levels of <span class="b2_hh1_span">Learn English</span> </h1>
+            <div class="bloc">
+                <div class="miniblock">
+                    <h1 class="h">A1</h1>
+                    <div class="star"></div>
+                    <div class="star1"></div>
+                    <div class="star2"></div>
+                    <div class="star3"></div>
+                    <div class="star4"></div>
+                    <div class="star5"></div>
+                </div>
+                <div class="bblock">
+                    <p class="pp"><<br> 1500 <br>word</p>
+                </div>
+                <p>Breakthrough or beginner</p>
+            </div>
+            <div class="bloc1">
+                <div class="miniblock">
+                    <h1 class="h">A2</h1>
+                    <div class="star"></div>
+                    <div class="star1"></div>
+                    <div class="star2"></div>
+                    <div class="star3"></div>
+                    <div class="star4"></div>
+                    <div class="star5"></div>
+                </div>
+                <div class="bblock">
+                    <p class="pp"><<br> 1500 <br>word</p>
+                </div>
+                <p>Breakthrough or beginner</p>
+            </div>
+            <div class="bloc2">
+                <div class="miniblock">
+                    <h1 class="h">B1</h1>
+                    <div class="star"></div>
+                    <div class="star1"></div>
+                    <div class="star2"></div>
+                    <div class="star3"></div>
+                    <div class="star4"></div>
+                    <div class="star5"></div>
+                </div> 
+                <div class="bblock">
+                    <p class="pp"><<br> 1500 <br>word</p>
+                </div>
+                <p>Breakthrough or beginner</p>
+            </div>
+            <div class="bloc3">
+                <div class="miniblock">
+                    <h1 class="h">B2</h1>
+                    <div class="star"></div>
+                    <div class="star1"></div>
+                    <div class="star2"></div>
+                    <div class="star3"></div>
+                    <div class="star4"></div>
+                    <div class="star5"></div>
+                </div>
+                <div class="bblock">
+                    <p class="pp"><<br> 1500 <br>word</p>
+                </div>
+                <p>Breakthrough or beginner</p>
+            </div>
+            <div class="bloc4">
+                <div class="miniblock">
+                    <h1 class="h">C1</h1>
+                    <div class="star"></div>
+                    <div class="star1"></div>
+                    <div class="star2"></div>
+                    <div class="star3"></div>
+                    <div class="star4"></div>
+                    <div class="star5"></div>
+                </div>
+                <div class="bblock">
+                    <p class="pp"><<br> 1500 <br>word</p>
+                </div>
+                <p>Breakthrough or beginner</p>
+            </div>
+            <div class="bloc5">
+                <div class="miniblock">
+                    <h1 class="h">C2</h1>
+                    <div class="star"></div>
+                    <div class="star1"></div>
+                    <div class="star2"></div>
+                    <div class="star3"></div>
+                    <div class="star4"></div>
+                    <div class="star5"></div>
+                </div>
+                <div class="bblock">
+                    <p class="pp"><<br> 1500 <br>word</p>
+                </div>
+                <p>Breakthrough or beginner</p>
+            </div>
+        </section>
+        <div class="box1" id="box1">
+            <div  class="blockk"><h1 class="b1_h1"><span class="b1_h1_span">Key reasons</span> for the use of English language on the web</h1>
+            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et  </p>
+        </div>
+            
+            <div class="box3" id>
+                <div class="mini_box1">
+                    <img src="image 18.png" alt="">
+                    <h2 class="b3_h" id="b3_h">Community</h2>
+                    <p class="p2" id="p2">Today we live in a much more globalized world where the importance of global trade through the Internet. </p>
+                    <p class="p3" id="p5">Learn more</p>
+                </div>
+                <div class="mini_box2">
+                    <img src="image 18(1).png" alt="">
+                    <h2 class="b3_h" id="b3_h1">Documentation and Resources</h2>
+                    <p class="p2" id="p3">Which has given rise to the development of electronic commerce and that companies . </p>
+                    <p class="p3" id="p6">Learn more</p>
+                </div>
+                <div class="mini_box3">
+                    <img src="image 18(2).png" alt="">
+                    <h2 class="b3_h" id="b3_h2">International standard</h2>
+                    <p class="p2" id="p4">Within this globalization, it is necessary to focus on certain aspects provided by technology and all the information. </p>
+                    <p class="p3" id="p7">Learn more</p>
+                </div>
+            </div>
+        </div>
+        <div class="box2" id="box2">
+            <h1 class="b2_hh1" id="b2_hh1">The importance of the English language  <span class="b2_hh1_span">for <br>professional development</span></h1>
+            <div class="box4" id="importance">
+                <img class="img1" src="https://s3-alpha-sig.figma.com/img/038d/32e6/425e317771d35ea46a3c0072959b0056?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a2QtdGbr9UgrhZP9RLnwHRywPP1TJKqjDL2Y7Lh0UQBP2y1pWLY5sbvR20AYZHcgfSlSsSI1o8fhBsEOx3knwUtnmfxOl5k4IgzkbU~gX20VYvHQmKxDNymOTEbGTRNRHVtcDHR0-71qVrFJaEJYNY-i0qS8APW~-JDliyvOkGjgBfDKrcj~lNFLhze40uPhcEkRhGVmlzNY8p761ejOBLXEBeEWKn5TDzNI~hj~4iTVg-5lALjIcpgE4uoEcRFik~Cq7YGHCqibWjLwK-9jRcQ4kK9cozvnpFDkD9GTvGhwRCHBbQD950-W3DF~XsKv9kRXW7Gu41WOx3gwgW88tA__" alt="">
+                <img class="img2" src="/Triangle.png" alt="">
+                <div class="line" id="line1" onclick="line1()">
+                    <svg id="svgPlus1" style="margin: 10px; cursor: pointer;" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14H27" stroke="#40A060" stroke-width="4" stroke-linecap="round"/><path d="M13 2L13 26" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <svg id="svgMinus1" style="margin: 10px; cursor: pointer; display: none;" width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 2H34" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <h3 style="cursor: pointer;">Highly Qualified</h3>
+                    <p id="lp1" class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                </div>
+                <div class="line" id="line2" onclick="line2()">
+                    <svg id="svgPlus2" style="margin: 10px; cursor: pointer;" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14H27" stroke="#40A060" stroke-width="4" stroke-linecap="round"/><path d="M13 2L13 26" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <svg id="svgMinus2" style="margin: 10px; cursor: pointer; display: none;" width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 2H34" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <h3 style="cursor: pointer;" class="img4">Latest Methods</h3>
+                    <p id="lp2" class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                </div>
+                <div class="line" id="line3" onclick="line3()">
+                    <svg id="svgPlus3" style="margin: 10px; cursor: pointer;" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14H27" stroke="#40A060" stroke-width="4" stroke-linecap="round"/><path d="M13 2L13 26" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <svg id="svgMinus3" style="margin: 10px; cursor: pointer; display: none;" width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 2H34" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <h3 style="cursor: pointer;" class="img4">Latest Methods</h3>
+                    <p id="lp3" class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                </div>
+                <div class="line" id="line4" onclick="line4()">
+                    <svg id="svgPlus4" style="margin: 10px; cursor: pointer;" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14H27" stroke="#40A060" stroke-width="4" stroke-linecap="round"/><path d="M13 2L13 26" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <svg id="svgMinus4" style="margin: 10px; cursor: pointer; display: none;" width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 2H34" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <h3 style="cursor: pointer;" class="img4">Latest Methods</h3>
+                    <p id="lp4" class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                </div>
+                <div class="line" id="line5" onclick="line5()">
+                    <svg id="svgPlus5" style="margin: 10px; cursor: pointer;" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14H27" stroke="#40A060" stroke-width="4" stroke-linecap="round"/><path d="M13 2L13 26" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <svg id="svgMinus5" style="margin: 10px; cursor: pointer; display: none;" width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 2H34" stroke="#40A060" stroke-width="4" stroke-linecap="round"/></svg>
+                    <h3 style="cursor: pointer;" class="img4">Latest Methods</h3>
+                    <p id="lp5" class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                </div>
+            </div>
+        </div>
+        
+
+        
+    <div class="test1" id="testing"> 
+        <h1 class="b2_hh1">Test your <span class="b2_hh1_span">knowledge </span>of the English language</h1>
+        <div class="f_test">
+            <div class="t_bl" id="tBl1" onclick="test1()">What is It?</div>
+            <div class="t_bl" id="tBl2" onclick="test2()">Translate it!</div>
+            <div class="t_bl" id="tBl3" onclick="test3()">?</div>
+            <div class="t_bl" id="tBl4" onclick="test4()">?</div>
+        </div>
+        <p class="test_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis, cum, doloribus impedit soluta consectetur fuga nisi corporis eveniet quibusdam culpa dolorum maiores ab inventore fugit nihil ex ipsa hic.</p>
+        <div class="test_big1" id="tB1">
+            <div class="big_blocks">
+                <div class="blockbig1"></div>
+                <input class="inp" id="bBInp1" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig2"></div>
+                <input class="inp" id="bBInp2" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig3"></div>
+                <input class="inp" id="bBInp3" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig4"></div>
+                <input class="inp" id="bBInp4" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig5"></div>
+                <input class="inp" id="bBInp5" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig6"></div>
+                <input class="inp" id="bBInp6" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig7"></div>
+                <input class="inp" id="bBInp7" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig8"></div>
+                <input class="inp" id="bBInp8" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig9"></div>
+                <input class="inp" id="bBInp9" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig10"></div>
+                <input class="inp" id="bBInp10" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig11"></div>
+                <input class="inp" id="bBInp11" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig12"></div>
+                <input class="inp" id="bBInp12" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig13"></div>
+                <input class="inp" id="bBInp13" type="text" placeholder="">
+            </div>
+            <div class="big_blocks">
+                <div class="blockbig14"></div>
+                <input class="inp" id="bBInp14" type="text" placeholder="">
+            </div> 
+            <button class="baltest" id="mBtn1" onclick="answer1()">Answer</button>
+        </div>
+        <div class="test_big2" id="tB2">
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp1">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp2">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp3">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp4">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp5">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp6">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp7">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp8">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp9">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp10">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp11">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp12">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp13">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp14">
+                </div>
+            </div>
+            <div class="big_blocks1">
+                <h3 class="b_b1_h3">Write in English</h3>
+                <p class="b_b1_p1">Word: <span class="b_b1_p1_span">Recently</span></p>
+                <div class="b_b1_i1">
+                    <p class="b_b1_p1">Translate:</p>
+                    <input type="text" class="b_b1_inp" id="bB1Inp15">
+                </div>
+            </div>
+            <button class="baltest" id="mBtn1" onclick="answer2()">Answer</button>
+        </div>
+    </div>
+    <div class="test_big3" id="tB3">
+        <div class="test_container">
+           <h1>Check Your English Listening Level</h1>
+           <p>Listen to the following audio and answer the questions below to test your English listening skills.</p>
+           <div class="audio-player">
+               <audio controls src="1.mp3"></audio>
+           </div>
+       </div>
+       <div class="container">
+           <h1>Task 1</h1>
+           <form id="quizForm">
+               <div class="question">
+                   <p>1. The delivery hasn't arrived yet.</p>
+                   <label><input type="radio" name="q1" value="true"> True</label>
+                   <label><input type="radio" name="q1" value="false"> False</label>
+               </div>
+               <div class="question">
+                   <p>2. Andrea is having cash flow issues and needs a payment extension.</p>
+                   <label><input type="radio" name="q2" value="true"> True</label>
+                   <label><input type="radio" name="q2" value="false"> False</label>
+               </div>
+               <div class="question">
+                   <p>3. Andrea usually asks for an extension of the payment terms.</p>
+                   <label><input type="radio" name="q3" value="true"> True</label>
+                   <label><input type="radio" name="q3" value="false"> False</label>
+               </div>
+               <div class="question">
+                   <p>4. Andrea has a new order to place, even bigger than the last one.</p>
+                   <label><input type="radio" name="q4" value="true"> True</label>
+                   <label><input type="radio" name="q4" value="false"> False</label>
+               </div>
+               <div class="question">
+                   <p>5. Junko can extend the payment terms on the last order to 60 days.</p>
+                   <label><input type="radio" name="q5" value="true"> True</label>
+                   <label><input type="radio" name="q5" value="false"> False</label>
+               </div>
+               <div class="question">
+                   <p>6. Junko will send Andrea an email confirmation.</p>
+                   <label><input type="radio" name="q6" value="true"> True</label>
+                   <label><input type="radio" name="q6" value="false"> False</label>
+               </div>
+                 <button class="endanswer" onclick="checkAnswers1()">Finish</button>
+           </form>
+       </div>
+   
+
+
+   <div class="container">
+       <h1>Test 2</h1>
+       <p>Put the sentences in the correct group.</p>
+
+       <div id="sentence-container">
+           <div class="ditem" draggable="true" id="item1">I think we can make an exception this time.</div>
+           <div class="ditem" draggable="true" id="item2">I'm happy to help you.</div>
+           <div class="ditem" draggable="true" id="item3">I promise this won't become the norm.</div>
+           <div class="ditem" draggable="true" id="item4">I appreciate your help.</div>
+           <div class="ditem" draggable="true" id="item5">You'd really be helping us.</div>
+           <div class="ditem" draggable="true" id="item6">I need a favour.</div>
+           <div class="ditem" draggable="true" id="item7">I'm not sure if I can do that.</div>
+           <div class="ditem" draggable="true" id="item8">Let me see what I can do.</div>
+       </div>
+
+       <div class="dropzone" id="customer-says">The customer says:</div>
+       <div class="dropzone" id="supplier-says">The supplier says:</div>
+
+       <div class="submit">
+           <button class="endanswer" onclick="checkAnswers()">Finish</button>
+       </div>
+   </div>
+   </div>  
+</div>
+        <div class="tools" id="tools">
+            <h1 class="head">Learning and <span class="dev">development</span> tools</h1>
+            <div class="halfs">
+                <div class="h_1">
+                    <img class="h_1_img" src="https://s3-alpha-sig.figma.com/img/5abc/f770/24978c219bf2223fc9e32ec5fae8375f?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a1Z1VqnHznOfhKVzlsW66dYGeFxP7taAKmkJgYihBml1eAaLJe3k5xCbK2MrCIE-vv6BqfVbHKW~BuUv8HtAht7KFzfA1JQGKXoN5D36FgInW~itszoLZ1jaCBQ~BJ4RQU3VeDQKWHgxtYM2QOvDgkfZNiTWOR2WJ~U5n7ORWxfquvJ7G3hKEWD8zERzvhSZIdRH2L0-1PqUTPPszeCafn5ebqI~w295p2kdn-qPPi4bPg2WHIZ6kIRHQfAbe2WPh-TjFabu4TaNq6p7LcPimomxgjVF7ITDgfTwHCqUwD5cuW1w1Oaz82biS1Skm0Z3Mhljyj8ZqiYcl~~6hudCng__" alt="">
+                    <div class="name">Tool</div>
+                    <h1 class="h1_h" id="lox5x">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h1>
+                    <p class="lightgray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                    <div class="read_more">Read more</div>
+                </div>
+                <div class="h_2">
+                    <div class="tool">
+                        <img class="t_img" src="https://s3-alpha-sig.figma.com/img/59e9/1cde/877aacb096082025aaa7528e15f2789e?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mEipg8HbBF9eZgOOxgguzTmus88fiJ~3Z9P9La12Kpo~us-NeYboz5vpkpyqdYBjY0pS1LyX-rLFt7OpF~z36oM-5~bqQLiXNZ2iX6qojU6PjKYkNM9oVj19Nb1Cc5zllKJgqPkPUuNeLjZwjLCpLWSX0zLRri0GXhWQ8J-cUwe0pJPRkJqH59Gy~9V2nBKAylsgB-bji~yW-JEn5IncxkwKsZfHTrwLY1VnFbFxHxMYzH33xyDTzUNpgU9hj0lgMrqn-MeHmjL26kfM5idjPtfExQzDRfOU-hnDMosr4-mHzgSAyJyH8Efofu7nJpxz6q1HbJ6PAlPswHFEqTrdFg__" alt="">
+                        <div class="t_text">
+                            <h2 class="t_h2" id="lox4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                            <p class="t_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                        </div>
+                    </div>
+                    <div class="tool">
+                        <img  class="t_img" src="https://s3-alpha-sig.figma.com/img/9150/3c25/c25d4396ab15991e79418fb801fd5efa?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ngtVH~ipKAvU8WqQHXDnZ5nTKnqhFriDNpNx8Nmd5C2j2DoIavDVKz4D~faQBTiBIcqcB5AlqDHEum2mVwWvrSG-m6B2l6MdoSBI4mU58TK6Li6l2aawfl9rzWWwGrcmpD3O6dmYhymARVYT-hwFz5KFdVh4eMoEWxBCkNE24R~MEkTzsLbM7wXwWxix5IEQtNtzXJ3iKttDQi9XKeuCJ97ga1ksLhtqSx1BEO-fp4OqBLSo59RDNerEHFhGTRAdJd0kOl9C3MYnKf5s7TBO2nXs2fO-zxL9MUZU-HF19oqRw02dz7~ALvs5fpCtRZSR2I0SczbYuv1f8ioo9vkQGg__" alt="">
+                        <div class="t_text">
+                            <h2 class="t_h2" id="lox3" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                            <p class="t_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                        </div>
+                    </div>
+                    <div class="tool">
+                        <img class="t_img" src="https://s3-alpha-sig.figma.com/img/a6a7/5cf5/ca47b6a4fceb75f355da0105034713c7?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IsQwB8gJuJcQsP53sRJ60Khh68EFJS3znGjSAs17HJJAV3JhAAS2RRm7LBiikq3qz9hSAcqSH7mEYEig~OegnJVjRr0PJBNOI3IIeJ30mK3QnoAEx7u4UnecDn0TMKON0A74QOB9zCpQpkLbBEiWxvuqtpS9jY4sXXNpW8HiqLA4Sjiw~cdrTSKHIRy7Db1ZEFPPMWqSvfQjhH1MAsmfWyjyBmEjmLhRVYagr0FzuNojXK9ZJmV4tDsreBA-eK4fCqaPqab5w2ulvdk5G1Z97~UtZtEy9tAJS8yMtZF7IOqOBp98brypv3ONpKsYdqxhTLuFVywv5s3Jv6qD~tTIOw__" alt="">
+                        <div class="t_text">
+                            <h2 class="t_h2" id="lox2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                            <p class="t_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <footer>
+            <div class="f_inner">
+                <h2 class="f_h2">English for Web-<br>developers</h2>
+                <h3 class="f_h3">Subscribe to get our Newsletter</h3>
+                <div class="emsub">
+                    <input class="em_inp" id="emInp" type="text" placeholder="Your email">
+                    <button class="sub" onclick="sub()">Subscribe</button>
+                </div>
+                <div class="careers">
+                    <p class="c_p1">Careers</p>
+                    <p class="c_p2">Privacy Policy</p>
+                    <p class="c_p3">Terms & Conditions</p>
+                </div>
+                <p class="inc">© 2021 Class Technologies Inc.</p>
+            </div>
+        </footer>
+    </div>
+    <div class="thx" id="thx1">
+        <p class="thx_p">Thanks for your emil!</p>
+        <div class="thx_load1"></div>
+    </div>
+    <div class="thx" id="thx2">
+        <p class="thx_p">You not have emil!</p>
+        <div class="thx_load2"></div>
+    </div>
+    <script src="js/script.js" id="script"></script>
+</body>
+</html>
